@@ -10,5 +10,6 @@ FactoryBot.define do
     refrigerator     { Faker::Boolean.boolean }
     near_bus_line    { Faker::Boolean.boolean }
     smoke_allowed    { Faker::Boolean.boolean }
+    garden_allowed   { Faker::Boolean.boolean }
   end
 end
